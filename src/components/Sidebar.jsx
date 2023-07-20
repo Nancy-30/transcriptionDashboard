@@ -4,9 +4,9 @@ import { BiSolidHome, BiCalendar, BiFolder, BiTrash, BiInfoCircle } from 'react-
 import { AiOutlineSetting } from 'react-icons/ai'
 export default function Sidebar() {
   return (
-    <div className="lg:w-[20%] hidden md:block">
+    <div className="lg:w-[19%] w-[14rem] hidden md:block h-[60rem] ">
 
-      <div className='p-4 flex flex-col gap-10 '>
+      <div className='p-4 flex flex-col gap-10 h-[100%] fixed bg-slate-950 xl:w-[17rem] w-[12rem]' >
 
         <Profile />
 

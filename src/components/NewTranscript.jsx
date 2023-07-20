@@ -1,6 +1,4 @@
 import React from 'react'
-// import axios from 'axios';
-// import { fstat } from 'fs';
 import { AiOutlineCloudUpload } from 'react-icons/ai'
 
 export default function NewTranscript() {
@@ -8,10 +6,7 @@ export default function NewTranscript() {
         <div className='w-[88%] bg-white shadow-md shadow-gray-300 p-4 pl-8 rounded-xl'>
             <h1 className='text-2xl font-semibold'>Start New Transcription</h1>
 
-            <form className='flex flex-col items-center' 
-                action ="upload" method='POST'
-                encType='multipart/form-data'
-                >
+            <form className='flex flex-col items-center' >
                 <AiOutlineCloudUpload className='text-6xl' />
                 <input type='file' className='m-3 p-2' name = "uploadedFile" />
                 <button type='submit' className='bg-[#f15c16] p-2 rounded-md text-white' >Upload video/audio file</button>
